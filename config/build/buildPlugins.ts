@@ -28,7 +28,7 @@ export function buildPlugins({
     plugins.push(
       new BundleAnalyzerPlugin({
         openAnalyzer: false,
-      })
+      }),
     );
   }
 
